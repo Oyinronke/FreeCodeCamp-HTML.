@@ -1,0 +1,35 @@
+,<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+<h1 id="title">Practice</h1>
+<p id="description">I am practicing forms</p>
+<form id="survey-form">
+<label id="name-label">Full name
+<input type="text" id="name" required placeholder="Firstname Middlename Lastname">
+</label>
+<label id="email-label">Email
+<input type="email" id="email" required placeholder="example@email.com"><br>
+</label>
+<label id="number-label">Phone number 
+<input type="number" id="number" min="3" max="11" placeholder="555-555-5555">
+<label>Select<select type="dropdown" id="dropdown"></select>Beginner</label>
+<option id="dropdown">Begineer</option>
+<option id="dropdown">Intermediate</option>
+<option id="dropdown">Expert</option>
+</label><br>
+<input type="radio" name="rating" value="rating">Satisfied</input>
+<input type="radio" name="rating" value="rating">Not Satisfied</input>
+<input type="checkbox" value="jokes">This was interesting </input>
+<input type="checkbox" value="jokes">This was fun</input>
+<input type="checkbox" value="jokes">This was amazing</input>
+<input type="checkbox" value="jokes">This was mind blowing </input>
+<textarea height="400" width="400"></textarea>
+<button type="submit" id="submit">SUBMIT</button>
+</form>
+</body>
+</html>
